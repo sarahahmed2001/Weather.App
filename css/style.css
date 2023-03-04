@@ -1,0 +1,250 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+body {
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+   background: #1e202b;
+}
+.navbar{   
+     background: #1e202b;
+ color: white;
+    }
+    .weather{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1rem;
+        color: white;
+
+    }
+    .navSpan{
+padding-bottom: 0px;
+margin: 0px;
+font-size: 14px;
+color: #817f7f;
+    }
+.navbar-brand img{
+    width:65px;
+    height: 40px;
+
+}
+.navbar-brand {
+display: flex;
+justify-content: space-between;
+align-content: start;
+
+}
+.nav-link{
+    color: white;
+font-size: 14px;
+ text-align: center;
+}
+.navbar .nav-item:hover .nav-link{
+    background-color:transparent;
+border: 1px solid #009ad8 ;
+    color: white;
+    border-radius: 20px;
+}
+.navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
+    border: 1px solid#009ad8;
+    color: #009ad8;
+padding-left: 20px;
+padding-right: 20px;
+    border-radius: 30px;
+    text-align: center;
+
+}
+.button {
+    position: absolute;
+    top: 14%;
+    right: 13%;
+ 
+
+}
+.button {
+    border: none;
+    background: #009ad8;
+    padding: 10px 35px;
+    border-radius: 30px;
+    color: white;
+}
+.img{
+    background-image: url("../img/bghhj2.png");
+background-repeat: no-repeat;
+ 
+    height:50% ;
+    }
+    .afterImg{
+        background-color: #1e202b;
+        height: 100%;
+    }
+.text{
+    background-color: #1e202b;
+    border: 0px;
+    color: white;
+}
+.for1 .head ,.for3 .head{
+
+background: rgba(0, 0, 0, 0.1);
+padding: 10px;
+text-align: center;
+font-weight: 400;
+}
+.case{
+    color: #009ad8;
+}
+.for1 span img{
+    width: 7%;
+
+}
+.for1 ,.for3{
+   
+    background: #313341;
+    height: 350px;
+}
+
+.degree{
+    font-size: 5rem;
+}
+.for2{
+    background: #2c2e3b;
+    height: 350px;  
+}
+.for2 .head{
+
+    background: rgba(11, 11, 11, 0.242);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+    }
+    .sub{
+        background: #262936;
+        padding: 50px 0;
+    }
+    .button2 {
+        position: absolute;
+        top: 14%;
+        right: 14%;
+     
+    
+    }
+    .button2 {
+        border: none;
+        background: #009ad8;
+        padding: 10px 20px;
+        border-radius: 30px;
+        color: white;
+    }
+    .icons{
+    
+        display: flex;
+justify-content: center;
+align-items: center;
+    }
+    .icon-brand{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1e202b;
+    color: #009ad8;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+    .icons a{
+        text-decoration: none;
+    }
+    .icon-brand:hover{
+        background-color: #009ad8;
+    color: white;
+    }   
+    .pages{
+        background-color: rgb(38, 41, 54);
+        height: 50px;
+    }
+    .a-input{
+
+    color: #a5a5a7;
+    
+
+    }
+    .a-input:hover{
+        color: #a5a5a7;;
+    }
+.a-input:hover::after{
+ content: " ";
+ width: 35px;
+ height: 1px;
+ position: absolute;
+ top: 75%;
+ left: 1.5%;
+ background-color:#a5a5a7 ;
+    }
+    .icon-cont{
+position: absolute;
+top: 37%;
+left: 6.5%;
+color: #817f7f;
+    }
+    .page-cont{
+        position: absolute;
+        top: 30%;
+        left: 8.5%;   
+    }
+    .col-mp{
+        height: 300px;
+        background-color: rgb(38, 41, 54);
+    }
+    
+    .map i{
+        color: #009ad8;
+    }
+    .contact-form input{
+        width: 230px;
+        background: transparent;
+        border: 1px solid #817f7f;
+    }
+    .contact-form textarea{
+      
+        background: transparent;
+        border: 1px solid #817f7f;
+    }
+    .contact-form .text-right {
+        text-align: right;
+    }
+   .contact-form .form-button{
+    width: 150px;
+        border: none;
+        background: #009ad8;
+        padding: 10px 5px;
+        border-radius: 30px;
+        color: white;
+    }
+  .text:focus{
+    background-color: #1e202b;
+    border: 0px;
+  }
+  .form-control:focus {
+    box-shadow: none;
+  color: white;
+}
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .button {
+        position: absolute;
+      
+        right: 80px;
+     
+    
+    }
+   
+    .sub .icons{
+        
+        top: 10px;
+        right: 220px;
+      
+    }
+}
